@@ -1,0 +1,12 @@
+
+1. initialize loop control variable(s)
+2. loop -> compare loop control variable(s):
+	 while ( hours != 0 )
+
+	a.  // do stuff
+	z. update loop control variable
+
+
+
+
+

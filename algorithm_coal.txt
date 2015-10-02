@@ -1,0 +1,32 @@
+/*
+
+Algorithm and Tests for
+Coal Calorific Value Calculator
+By Aaron Barlow
+
+*/
+
+
+ Algorithm:
+	1. Display a welcome message
+	2. Prompt user for percent of carbon, hydrogen, oxygen, and sulfur in the coal
+	3. Read C, H, O, and S
+	4. Calculate the coal calorific value with the following formula: 
+    (337 * Carbon) + (1442 * (Hydrogen - Oxygen/8)) + (93 * Sulfur)
+	5. Convert to kiloJoules per kilogram with the following formula: 
+    coal calorific value * 0.01
+	6. Display the coal calorific value
+	7. Display a thank you message
+
+Base Test 1:
+ 	1. Enter 64.07 for carbon, 4.52 for hydrogen, 8.1 for oxygen, and 4.39 for sulfur
+	2. Verify “Coal Calorific Value: 270.577 kJ/kg”
+
+ Test 2:
+ 	1. Enter -1 for carbon, 0.75 for hydrogen, 0 for oxygen, and 100000000000000 for sulfur
+	2. Verify “Coal Calorific Value: 9.3e+13 kJ/kg”
+
+ Test 3:
+ 	1. Enter 1.0e-9 for carbon, +5 for hydrogen, -0.8989 for oxygen, and 1.0e-3 for sulfur
+	2. Verify “Coal Calorific Value: 73.7212 kJ/kg”
+

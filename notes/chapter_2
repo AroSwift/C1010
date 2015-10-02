@@ -1,0 +1,57 @@
+*/ variable types */
+
+double, float -> real number
+char -> one character
+string -> large # of characters
+bool -> true, false, 0, 1
+
+
+/* Variable Declarations */
+
+[type]			[name]
+int				age
+double			salary
+char				status
+bool				married				
+string			zip
+
+
+/* Assignment Statement  */
+
+salary = 1234.56; // literal
+mI = 'Q'; // literal
+zipcode = "37701-14404"; // literal
+string name = ""; 
+
+
+/* Example of Variable Statements  */
+
+credit hours:						int credit_hours = 4;
+# of seconds for swim team:	double swim_team_seconds = 8.2;
+undergraduate or graduate?		char student_type = 'U';
+have you been advised			bool advised_status = true;
+zip code								string zip_code = "37701-1440";
+phone									string phone = "865-978-0116"; // NO! - MUST BE INT
+
+
+/* Cout Specific OutPut  */
+
+- prsision = 2
+- scientific = true
+- showpoint = true
+
+
+/*   */
+
+x = 123.4567
+
+cout.setf( ios::fixed | ios::showpoint);
+cout.precision(2);
+
+cout << x;
+
+
+
+
+
+

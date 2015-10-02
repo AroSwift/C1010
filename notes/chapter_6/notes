@@ -1,0 +1,18 @@
+1. Prompt the user for n 
+2. Read n
+3. product = 1
+4. i = n
+5. loop i > 0
+	a. product *= i
+	b. i--
+6. Print product
+
+
+
+
+
+
+
+
+
+

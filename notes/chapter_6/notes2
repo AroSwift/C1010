@@ -1,0 +1,18 @@
+squareIt algorithm
+	a. Prompt the user for x
+	b. Read x
+	c. Square x
+
+
+
+totalCost algorithm
+Parameters:
+	n = number of items
+	p = price per item
+returns total cost in including tax
+1. cost = n * p
+2. cost *= TAX_RATE
+3. return cost
+
+
+

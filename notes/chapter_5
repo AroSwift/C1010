@@ -1,0 +1,26 @@
+Letter grade algorithm:
+
+
+1. Prompt the user for numeric grade
+2. Read numericGrade
+3. while numericGrade <= 0
+	a. if numericGrade >= 93
+		i. letterGrade = 'A'
+	b. else if numericGrade >= 83
+		i. letterGrade = 'B'
+	c. else if numericGrade >= 73
+		i. letterGrade = 'C'
+	d. else if numericGrade >= 65
+		i. letterGrade = 'D'
+	e. else
+		i. letterGrade= 'F'
+	f. Prompt the user for numeric grade
+	g. Read numericGrade
+4. Goodbye
+
+
+
+
+
+
+
